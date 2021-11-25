@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/be/ac/vub/soft/Book.java=UTF-8
+encoding//src/be/ac/vub/soft/GetAllBooks.java=UTF-8
+encoding//src/be/ac/vub/soft/SearchBooks.java=UTF-8
+encoding//src/be/library/Book.java=UTF-8
+encoding//src/be/library/SearchForBooks.java=UTF-8
+encoding//src/librarysearch/soft/Book.java=UTF-8
+encoding//src/librarysearch/soft/BookList.java=UTF-8
+encoding//src/librarysearch/soft/LibrarySearch.java=UTF-8
+encoding//src/librarysearch/soft/LibrarySearchSOAPBindingStub.java=UTF-8
+encoding//src/librarysearch/soft/LibrarySearchService.java=UTF-8
+encoding//src/librarysearch/soft/LibrarySearchServiceLocator.java=UTF-8
