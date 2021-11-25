@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ExtendedFamilies="platform:/resource/Families2Persons/ExtendedFamilies.ecore">
+  <ExtendedFamilies:Family lastName="Simpsons" noOfChildren="3">
+    <members xsi:type="ExtendedFamilies:Male" firstName="Homer" children="/0/@members.2 /0/@members.3 /0/@members.4"/>
+    <members xsi:type="ExtendedFamilies:Female" firstName="Marge" children="/0/@members.2 /0/@members.3 /0/@members.4"/>
+    <members xsi:type="ExtendedFamilies:Female" firstName="Lisa" parents="/0/@members.0 /0/@members.1"/>
+    <members xsi:type="ExtendedFamilies:Female" firstName="Maggie" parents="/0/@members.0 /0/@members.1"/>
+    <members xsi:type="ExtendedFamilies:Male" firstName="Bart" parents="/0/@members.0 /0/@members.1"/>
+  </ExtendedFamilies:Family>
+  <ExtendedFamilies:Family lastName="Griffin" noOfChildren="3">
+    <members xsi:type="ExtendedFamilies:Male" firstName="Peter" children="/1/@members.2 /1/@members.3 /1/@members.4"/>
+    <members xsi:type="ExtendedFamilies:Female" firstName="Lois" children="/1/@members.2 /1/@members.3 /1/@members.4"/>
+    <members xsi:type="ExtendedFamilies:Female" firstName="Meg" parents="/1/@members.0 /1/@members.1"/>
+    <members xsi:type="ExtendedFamilies:Male" firstName="Stewie" parents="/1/@members.0 /1/@members.1"/>
+    <members xsi:type="ExtendedFamilies:Male" firstName="Chris" parents="/1/@members.0 /1/@members.1"/>
+  </ExtendedFamilies:Family>
+  <ExtendedFamilies:Family lastName="Cartman" noOfChildren="1">
+    <members xsi:type="ExtendedFamilies:Female" firstName="Liane" children="/2/@members.1"/>
+    <members xsi:type="ExtendedFamilies:Male" firstName="Eric" parents="/2/@members.0"/>
+  </ExtendedFamilies:Family>
+  <ExtendedFamilies:Family lastName="Stotch" noOfChildren="1">
+    <members xsi:type="ExtendedFamilies:Female" firstName="Linda" children="/3/@members.2"/>
+    <members xsi:type="ExtendedFamilies:Male" firstName="Stephen" children="/3/@members.2"/>
+    <members xsi:type="ExtendedFamilies:Male" firstName="Butters" parents="/3/@members.0 /3/@members.1"/>
+  </ExtendedFamilies:Family>
+  <ExtendedFamilies:Family lastName="Testaburger" noOfChildren="1">
+    <members xsi:type="ExtendedFamilies:Female" firstName="Alice" children="/4/@members.1"/>
+    <members xsi:type="ExtendedFamilies:Female" firstName="Wendy" parents="/4/@members.0"/>
+  </ExtendedFamilies:Family>
+</xmi:XMI>
